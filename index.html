@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 | Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h2>Agro<span>Sustentável</span></h2>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#impacto">Nosso Impacto</a></li>
+                    <li><a href="#contato" class="btn-nav">Participe</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produtividade no campo e a preservação do meio ambiente. Descubra como a tecnologia e a consciência transformam o amanhã.</p>
+            <a href="#pilares" class="btn-primary">Conhecer o Projeto</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="sections">
+        <div class="container">
+            <h2 class="section-title">O Equilíbrio Essencial</h2>
+            <p class="section-subtitle">Produzir mais, conservando os nossos recursos naturais.</p>
+            
+            <div class="grid-cards">
+                <div class="card">
+                    <div class="icon">🌱</div>
+                    <h3>Produção Consciente</h3>
+                    <p>Uso de técnicas como a rotação de culturas e o plantio direto para manter o solo rico, produtivo e saudável por gerações.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">💧</div>
+                    <h3>Gestão de Recursos</h3>
+                    <p>Sistemas inteligentes de irrigação por gotejamento e captação de água da chuva que evitam o desperdício desse bem vital.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">☀️</div>
+                    <h3>Energia Limpa</h3>
+                    <p>Adoção de painéis solares e biomassa nas propriedades rurais, reduzindo a pegada de carbono do setor agrícola.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="sections bg-light">
+        <div class="container tech-container">
+            <div class="tech-text">
+                <h2>Tecnologia a Serviço da Natureza</h2>
+                <p>O futuro do agro não está apenas nas máquinas pesadas, mas na inteligência dos dados. O uso de drones, sensores IoT (Internet das Coisas) e inteligência artificial permite monitorar lavouras em tempo real, aplicando fertilizantes e defensivos apenas onde é estritamente necessário, reduzindo drasticamente o impacto ambiental.</p>
+                <ul class="tech-list">
+                    <li>✓ Monitoramento via Satélite</li>
+                    <li>✓ Drones para mapeamento de pragas</li>
+                    <li>✓ Tratores autônomos com GPS de alta precisão</li>
+                </ul>
+            </div>
+            <div class="tech-image-placeholder">
+                <div class="mock-image">🚜 Campo Inteligente 📊</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="sections counters-section">
+        <div class="container">
+            <h2 class="section-title text-white">Metas para o Futuro</h2>
+            <div class="grid-counters">
+                <div class="counter-box">
+                    <span class="counter" data-target="35">0</span><span>%</span>
+                    <p>Redução no uso de água</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter" data-target="50">0</span><span>%</span>
+                    <p>Menos emissão de CO₂</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter" data-target="100">0</span><span>%</span>
+                    <p>Energia Renovável</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="sections">
+        <div class="container form-container">
+            <h2>Junte-se à Revolução Verde</h2>
+            <p>Quer saber como aplicar essas práticas na sua região ou escola? Entre em contato conosco!</p>
+            
+            <form id="agrinhoForm">
+                <div class="input-group">
+                    <input type="text" id="nome" required placeholder="Seu Nome">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder="Seu E-mail">
+                </div>
+                <div class="input-group">
+                    <textarea id="mensagem" rows="5" required placeholder="Sua Mensagem ou Ideia para o Agrinho"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <div id="formFeedback" class="hidden"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Projeto Agrinho - Agro Forte, Futuro Sustentável. Desenvolvido para Vencer.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
